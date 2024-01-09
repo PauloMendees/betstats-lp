@@ -1,4 +1,4 @@
-import { DesktopHeader } from './Header/Header.desktop';
+import { DesktopHeader } from './Header.desktop';
 
 const Header = {
   Desktop: DesktopHeader,
