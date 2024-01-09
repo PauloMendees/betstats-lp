@@ -18,6 +18,7 @@ export const Button = ({ scheme = 'gradient', children, disabled, className, ...
       className={twMerge(
         'flex gap-[10px] items-center rounded-md font-semibold px-6 py-4 hover:opacity-70 duration-200',
         getSchemeClassname(scheme),
+        disabled ? 'opacity-60 cursor-default' : '',
         className,
       )}
     >
