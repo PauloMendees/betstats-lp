@@ -1,3 +1,4 @@
+import { BetstatsIsForYou } from '@/layout/BetstatsIfForYour';
 import { GreenRange } from '@/layout/GreenRange';
 import Hero from '@/layout/Hero';
 import { TakeDecisions } from '@/layout/TakeDecisions';
@@ -10,6 +11,7 @@ export default function Home() {
       <GreenRange />
       <TiredOfAnalysis />
       <TakeDecisions />
+      <BetstatsIsForYou />
     </main>
   );
 }
