@@ -2,7 +2,7 @@ import { Button } from '@/components/Button';
 
 export const TiredOfAnalysis = () => {
   return (
-    <div className="w-full flex flex-col items-center py-[120px] px-8 lg:px-0 gap-6">
+    <section className="w-full flex flex-col items-center py-[120px] px-8 lg:px-0 gap-6">
       <Button scheme="outlined" className="px-4 py-2">
         <h3 className="text-base lg:text-lg font-medium">CANSADO DE ANÁLISES</h3>
       </Button>
@@ -16,6 +16,6 @@ export const TiredOfAnalysis = () => {
         essária para transformar cada aposta de um risco incerto em uma decisão estratégica bem
         calculada.
       </p>
-    </div>
+    </section>
   );
 };
