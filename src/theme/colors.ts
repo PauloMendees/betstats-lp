@@ -1,4 +1,4 @@
-module.exports = {
+export const colors = {
   brand: {
     primary: '#2F9638',
   },
@@ -16,7 +16,14 @@ module.exports = {
   common: {
     white: {
       250: 'rgba(255, 255, 255, 0.26)',
+      300: 'rgba(0, 0, 0, 0.3)',
       800: 'rgba(255, 255, 255, 0.8)',
+    },
+    black: {
+      800: 'rgba(0, 0, 0, 0.8)',
+    },
+    grey: {
+      800: '#A5A5A5',
     },
   },
 };
