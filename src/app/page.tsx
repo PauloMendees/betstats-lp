@@ -1,6 +1,7 @@
 import { BetstatsIsForYou } from '@/layout/BetstatsIfForYour';
 import { GreenRange } from '@/layout/GreenRange';
 import Hero from '@/layout/Hero';
+import { SeeHowStatisticsWork } from '@/layout/SeeHowStatisticsWork';
 import { SpendMoney } from '@/layout/SpendMoney';
 import { TakeDecisions } from '@/layout/TakeDecisions';
 import { TiredOfAnalysis } from '@/layout/TiredOfAnalysis';
@@ -14,6 +15,7 @@ export default function Home() {
       <TakeDecisions />
       <BetstatsIsForYou />
       <SpendMoney />
+      <SeeHowStatisticsWork />
     </main>
   );
 }

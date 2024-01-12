@@ -2,8 +2,8 @@ export const AttentionIcon = () => {
   return (
     <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
       <path
-        fill-rule="evenodd"
-        clip-rule="evenodd"
+        fillRule="evenodd"
+        clipRule="evenodd"
         d="M15 25L2.5 10.1263C9.40375 3.29254 20.5962 3.29254 27.5 10.1263L15 25Z"
         stroke="white"
         strokeWidth="1.5"
