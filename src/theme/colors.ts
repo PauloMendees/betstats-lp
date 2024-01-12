@@ -8,6 +8,7 @@ export const colors = {
   },
   bg: {
     main: '#010202',
+    secondary: 'rgba(27, 30, 35, 1)',
   },
   text: {
     primary: '#FFF',
