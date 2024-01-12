@@ -1,3 +1,4 @@
+import { AccessAnalysis } from '@/layout/AccessAnalysis';
 import { BetstatsIsForYou } from '@/layout/BetstatsIfForYour';
 import { GreenRange } from '@/layout/GreenRange';
 import Hero from '@/layout/Hero';
@@ -16,6 +17,7 @@ export default function Home() {
       <BetstatsIsForYou />
       <SpendMoney />
       <SeeHowStatisticsWork />
+      <AccessAnalysis />
     </main>
   );
 }
