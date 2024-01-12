@@ -3,7 +3,7 @@ import SeeHowStatisticsWorkImage from '../../../public/images/how-statistics-wor
 
 export const SeeHowStatisticsWork = () => {
   return (
-    <section className="mx-auto max-w-[1523px] w-full bg-green-gradient rounded-[30px] pt-6 pb-6 xl:pb-5 xl:pt-0 px-8 mt-[178px] flex items-center gap-10 lg:gap-28">
+    <section className="mx-auto max-w-[1523px] w-full bg-green-gradient rounded-[30px] pt-6 pb-6 xl:pb-5 xl:pt-0 px-8 mt-[178px] flex flex-col lg:flex-row items-center gap-10 lg:gap-28">
       <div className="mb-5">
         <Image
           src={SeeHowStatisticsWorkImage}
