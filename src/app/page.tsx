@@ -1,5 +1,7 @@
+import { Footer } from '@/components/Footer';
 import { AccessAnalysis } from '@/layout/AccessAnalysis';
 import { BetstatsIsForYou } from '@/layout/BetstatsIfForYour';
+import { EvolveHasTipster } from '@/layout/EvolveHasTipster';
 import { FAQ } from '@/layout/FAQ';
 import { GreenRange } from '@/layout/GreenRange';
 import Hero from '@/layout/Hero';
@@ -10,7 +12,7 @@ import { TiredOfAnalysis } from '@/layout/TiredOfAnalysis';
 
 export default function Home() {
   return (
-    <main className="flex flex-col text-text-primary pb-40">
+    <main className="flex flex-col text-text-primary">
       <Hero.Desktop />
       <GreenRange />
       <TiredOfAnalysis />
@@ -20,6 +22,8 @@ export default function Home() {
       <SeeHowStatisticsWork />
       <AccessAnalysis />
       <FAQ />
+      <EvolveHasTipster />
+      <Footer />
     </main>
   );
 }
