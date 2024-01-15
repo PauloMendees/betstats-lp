@@ -3,17 +3,18 @@ import MobileDashboard from '../../../public/images/mobile-dashboard.png';
 
 export const TakeDecisions = () => {
   return (
-    <section className="w-full px-8">
-      <div className="mx-auto max-w-[1523px] w-full bg-green-gradient rounded-[30px] px-9 pt-6 pb-6 xl:pb-5 xl:pt-0 flex flex-col lg:flex-row items-center justify-center gap-10 lg:gap-32">
+    <section className="w-full px-5">
+      <div className="mx-auto max-w-[1523px] w-full bg-green-gradient rounded-[30px] md:px-9 md:pt-6 md:pb-6 xl:pb-5 xl:pt-0 flex flex-col lg:flex-row items-center justify-center gap-10 lg:gap-32">
         <div className="w-full">
           <Image
             priority
             src={MobileDashboard}
             alt="Imagem mostrando a versao mobile do dashboard"
+            className="rounded-[26px]"
           />
         </div>
-        <div className="flex flex-col items-start lg:gap-12 max-w-[900px] w-full">
-          <h2 className="font-rubik text-[40px] leading-[48px] w-full">
+        <div className="flex flex-col items-start gap-[37px] lg:gap-12 max-w-[900px] w-full pb-[69px] px-[48px] md:px-0 md:pb-0">
+          <h2 className="font-rubik text-[28px] leading-[34px] md:text-[40px] md:leading-[48px] w-full">
             Tome <b>decisões de apostas</b> embasadas em <b>análise de classe mundial.</b>
           </h2>
           <p className="w-full">
