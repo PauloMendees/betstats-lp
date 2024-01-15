@@ -1,8 +1,10 @@
-export const PagarmeLogo = () => {
+import { IconProps } from '../types';
+
+export const PagarmeLogo = ({ width = '207', height = '29' }: IconProps) => {
   return (
     <svg
-      width="207"
-      height="29"
+      width={width}
+      height={height}
       viewBox="0 0 207 29"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
