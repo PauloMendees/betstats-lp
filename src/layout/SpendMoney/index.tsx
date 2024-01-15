@@ -2,12 +2,11 @@ import { colors } from '@/theme/colors';
 import { FiUser } from 'react-icons/fi';
 import { IoMdNotificationsOutline } from 'react-icons/io';
 import SpendMoneyImage from '../../../public/images/spend-money.png';
-import GreenLight from '../../../public/images/green-light.png';
 import Image from 'next/image';
 
 export const SpendMoney = () => {
   return (
-    <div className="w-full flex items-center justify-center gap-16 px-8">
+    <div className="w-full flex flex-col lg:flex-row items-center justify-center gap-16 px-8">
       <div className="flex flex-col items-start gap-10 max-w-[540px] w-full">
         <div className="flex items-center gap-7">
           <div className="rounded-full bg-bg-secondary p-[10px]">
