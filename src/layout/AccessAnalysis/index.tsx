@@ -7,7 +7,7 @@ import { PagarmeLogo } from '@/assets/partners/PagarmeLogo';
 export const AccessAnalysis = () => {
   return (
     <section className="w-full flex flex-col lg:flex-row items-center gap-10 mb-20 lg:mb-0">
-      <div className="md:mr-[-80px] lg:mr-[-120px] ml-[-200px]">
+      <div className="mr-0 ml-0 lg:mr-[-120px] lg:ml-[-200px]">
         <Image
           src={AccessAnalysisImage}
           alt="Imagem de uma bola e um pano verde com o dashboard de fundo com opcaidade baixa"

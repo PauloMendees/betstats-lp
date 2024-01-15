@@ -26,7 +26,7 @@ export const FAQ = () => {
           <Accordion.Root key={question.title} type="single" collapsible>
             <Accordion.Item value={question.title}>
               <Accordion.Trigger>
-                <h3 className="text-2xl">{question.title}</h3>
+                <h3 className="text-2xl text-start">{question.title}</h3>
               </Accordion.Trigger>
               <Accordion.Content>{question.content}</Accordion.Content>
             </Accordion.Item>
