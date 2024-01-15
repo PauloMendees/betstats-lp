@@ -10,14 +10,14 @@ export const TakeDecisions = () => {
             priority
             src={MobileDashboard}
             alt="Imagem mostrando a versao mobile do dashboard"
-            className="rounded-[26px]"
+            className="rounded-[26px] md:rounded-none"
           />
         </div>
         <div className="flex flex-col items-start gap-[37px] lg:gap-12 max-w-[900px] w-full pb-[69px] px-[48px] md:px-0 md:pb-0">
           <h2 className="font-rubik text-[28px] leading-[34px] md:text-[40px] md:leading-[48px] w-full">
             Tome <b>decisões de apostas</b> embasadas em <b>análise de classe mundial.</b>
           </h2>
-          <p className="w-full">
+          <p className="text-lg md:text-[22px] leading-[28px]">
             Nosso sistema de análise processa uma <b>grande quantidade de dados</b>, incluindo
             histórico de jogos, performance de jogadores e tendências de mercado.
             <br />
