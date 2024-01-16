@@ -3,6 +3,7 @@
 import { FootballBall } from '@/assets/brand/FootballBall';
 import { PagarmeLogo } from '@/assets/partners/PagarmeLogo';
 import { Button } from '@/components/Button';
+import { ctaLink } from '@/config';
 import { useScreenDetector } from '@/hooks/useScreenDetector';
 
 export const EvolveHasTipster = () => {
@@ -27,7 +28,12 @@ export const EvolveHasTipster = () => {
         </p>
       </div>
       <div className="flex flex-col items-center gap-[10px]">
-        <Button className="px-[26px] py-4 md:py-[22px] md:px-9">
+        <Button
+          isLink
+          link={ctaLink}
+          target="_blank"
+          className="px-[26px] py-4 md:py-[22px] md:px-9"
+        >
           <span className="font-semibold text-xs md:text-base">
             TOME UMA ATITUDE E COMECE AGORA!
           </span>

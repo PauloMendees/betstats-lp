@@ -5,6 +5,7 @@ import { Button } from '@/components/Button';
 import { FootballBall } from '@/assets/brand/FootballBall';
 import { PagarmeLogo } from '@/assets/partners/PagarmeLogo';
 import { useScreenDetector } from '@/hooks/useScreenDetector';
+import { ctaLink } from '@/config';
 
 export const AccessAnalysis = () => {
   const { isMobile } = useScreenDetector();
@@ -27,7 +28,12 @@ export const AccessAnalysis = () => {
           transformando suas apostas de meros palpites em estratégias bem planejadas e vitoriosas.
         </p>
         <div className="flex flex-col items-center gap-[10px] w-full md:w-auto">
-          <Button className="px-[26px] py-4 md:px-9 md:py-[22px]">
+          <Button
+            isLink
+            link={ctaLink}
+            target="_blank"
+            className="px-[26px] py-4 md:px-9 md:py-[22px]"
+          >
             <span className="font-semibold text-xs md:text-base">
               ACESSE ANÁLISES EXCLUSIVAS AGORA!
             </span>

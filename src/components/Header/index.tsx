@@ -3,6 +3,7 @@
 import { DesktopLogo } from '@/assets/brand/Logo.desktop';
 import { Button } from '../Button';
 import { useScreenDetector } from '@/hooks/useScreenDetector';
+import { ctaLink } from '@/config';
 
 export const Header = () => {
   const { isMobile } = useScreenDetector();
@@ -16,7 +17,7 @@ export const Header = () => {
         <h2 className="hidden md:block font-montserrat font-medium text-common-white-800 text-center">
           Conquiste bons resultados com a betstats
         </h2>
-        <Button>
+        <Button isLink link={ctaLink} target="_blank">
           <span className="text-[8px] leadiing[10px] md:text-xs text-center">
             ANÁLISES EXCLUSIVAS AGORA!
           </span>

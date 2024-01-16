@@ -5,6 +5,7 @@ import { Button } from '@/components/Button';
 import HeroMainImage from '@/../public/images/hero-main-image.png';
 import Image from 'next/image';
 import { useScreenDetector } from '@/hooks/useScreenDetector';
+import { ctaLink } from '@/config';
 
 export const Hero = () => {
   const { isMobile } = useScreenDetector();
@@ -14,7 +15,7 @@ export const Hero = () => {
       <div className="flex flex-col items-center max-w-[1280px] mx-auto">
         <div className="flex flex-col md:flex-row items-center gap-6 md:gap-4 lg:gap-0">
           <div className="px-8 md:px-0 flex flex-col items-start gap-6 md:gap-[18px]">
-            <Button scheme="outlined" className="py-2 px-3 md:px-4 md:py-2">
+            <Button withoutAction scheme="outlined" className="py-2 px-3 md:px-4 md:py-2">
               <span className="text-sm md:text-lg">BETSTATS</span>
             </Button>
             <div className="flex flex-col items-start gap-6">
@@ -32,7 +33,12 @@ export const Hero = () => {
               </p>
             </div>
             <div className="flex flex-col md:mt-8 gap-[10px] items-center">
-              <Button className="py-4 px-[26px] md:py-[22px] md:px-9">
+              <Button
+                isLink
+                link={ctaLink}
+                target="_blank"
+                className="py-4 px-[26px] md:py-[22px] md:px-9"
+              >
                 <span className="md:text-sm lg:text-base text-xs">
                   ACESSE ANÁLISES EXCLUSIVAS AGORA!
                 </span>
