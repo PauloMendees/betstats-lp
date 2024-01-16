@@ -35,6 +35,9 @@ export const FAQ = () => {
           </Accordion.Root>
         ))}
       </article>
+      <p className="block md:hidden text-xs w-full text-center mt-[10px]">
+        Ainda está com dúvidas? <b className="gradient-text font-bold">Entre em contato conosco</b>
+      </p>
     </section>
   );
 };
