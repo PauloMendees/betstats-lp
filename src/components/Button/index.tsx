@@ -26,7 +26,7 @@ export const Button = ({
       {...rest}
       onClick={withoutAction || disabled ? undefined : onClick}
       className={twMerge(
-        'flex gap-[10px] items-center rounded-md font-semibold px-6 py-4 hover:opacity-70 duration-200',
+        'flex gap-[10px] items-center rounded-md font-semibold px-5 lg:px-6 py-3 lg:py-4 hover:opacity-70 duration-200',
         getSchemeClassname(scheme),
         disabled ? 'opacity-60 cursor-default' : '',
         className,

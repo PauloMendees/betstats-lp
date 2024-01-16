@@ -1,7 +1,7 @@
 import type { Metadata } from 'next';
 import { Montserrat, Rubik } from 'next/font/google';
 import './globals.css';
-import Header from '@/components/Header';
+import { Header } from '@/components/Header';
 
 const montserrat = Montserrat({
   subsets: ['latin'],
@@ -26,7 +26,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
       <body
         className={`${montserrat.variable} ${rubik.variable} w-full min-h-[100svh] bg-bg-main font-montserrat flex flex-col`}
       >
-        <Header.Desktop />
+        <Header />
         {children}
       </body>
     </html>

@@ -1,8 +1,10 @@
-export const DesktopLogo = () => {
+import { IconProps } from '../types';
+
+export const DesktopLogo = ({ width = '183', height = '55' }: IconProps) => {
   return (
     <svg
-      width="183"
-      height="55"
+      width={width}
+      height={height}
       viewBox="0 0 183 55"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
