@@ -10,10 +10,10 @@ export const Hero = () => {
   const { isMobile } = useScreenDetector();
 
   return (
-    <section className="relative w-full mb-[62px] mt-[116px] md:pb-[146px] md:pt-[173px] bg-transparent md:bg-hero-background">
+    <section className="relative w-full mb-[62px] mt-[116px] md:pb-[146px] md:mt-0 md:pt-[173px] bg-transparent md:bg-hero-background">
       <div className="flex flex-col items-center max-w-[1280px] mx-auto">
-        <div className="flex flex-col md:flex-row items-center gap-4 lg:gap-0">
-          <div className="px-8 md:px-0 flex flex-col items-start gap-[18px]">
+        <div className="flex flex-col md:flex-row items-center gap-6 md:gap-4 lg:gap-0">
+          <div className="px-8 md:px-0 flex flex-col items-start gap-6 md:gap-[18px]">
             <Button scheme="outlined" className="py-2 px-3 md:px-4 md:py-2">
               <span className="text-sm md:text-lg">BETSTATS</span>
             </Button>
@@ -31,7 +31,7 @@ export const Hero = () => {
                 experiência de apostas mais inteligente e lucrativa.
               </p>
             </div>
-            <div className="flex flex-col mt-8 gap-[10px] items-center">
+            <div className="flex flex-col md:mt-8 gap-[10px] items-center">
               <Button className="py-4 px-[26px] md:py-[22px] md:px-9">
                 <span className="md:text-sm lg:text-base text-xs">
                   ACESSE ANÁLISES EXCLUSIVAS AGORA!
